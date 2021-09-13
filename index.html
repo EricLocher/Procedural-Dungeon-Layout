@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation Example</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #282C34;
+            overflow: hidden;
+        }
+
+        body #canvas {
+            display: inline-block;
+        }
+
+        button {
+            all: unset;
+        }
+
+        #canvas {
+            background-color: transparent;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        #btn_continue {
+            position: absolute;
+            width: 120px;
+            height: 40px;
+            left: 17px;
+            top: 25px;
+            background-color: #32373f;
+            border: 1px solid black;
+            font-size: 15pt;
+        }
+
+        #btn_continue:hover {
+            background-color: #383b41;
+            color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="btn_continue" onclick="forward()">Continue</button>
+</body>
+<script src="js/essentials.js"></script>
+<script src="js/classes.js"></script>
+<script src="js/main.js"></script>
+
+</html>
